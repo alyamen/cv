@@ -7,40 +7,78 @@
         <style type="text/css">
             body{
 
-                margin: 0;
+                margin: 30;
                 padding: 0;
-                background-color: #2e3c39;
+                background-color: #222831;
+            }
+            div{
+              margin: 0 10px 0 10px;
+              padding:  50px;
+              align-items: center;
+            }
+            .st, .nd{
+              background-color: #393e46;
+            }
+            .nd{
+              background-color: #222831;
+            }
+            .center {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .text, a {
+              color: #eeeeee;
             }
             img {
-                border-radius: 50%
+                width:20%;
+                float:left;
+                 margin:0;
             }
+            .invert { filter: invert(100%); }
         </style>
     </head>
     <body>
-        <img src="yan.png.png" alt="Yamen Al Kayal" height="150">
-        <h1>Yamen Al Kayal</h1>
-        <p><em>A webdeveloper</em></p>
-        <p>Lorem ipsum dolor sit amet, est ridens utamur mentitum at. Dicat sonet sententiae vix ea, atqui aliquip euripidis pro ea, duo viderer invenire definiebas te. Ius cu decore postea, ad inermis recusabo mel. Alienum fierent inciderint cu sit. Mel ad hinc eligendi. At nam albucius scribentur, enim feugiat comprehensam nam in.</p>
+      <!----img src="yan.png" alt="Yamen Al Kayal" class="center"-->
+      <img alt="Yamen Al Kayal" src="yan.png" title="invert" class="invert">
+      <!--img alt="Yamen Al Kayal" src="yan.png" title="original">
+      <img alt="Yamen Al Kayal" src="yan.png" title="saturate" class="saturate">
+      <img alt="Yamen Al Kayal" src="yan.png" title="grayscale" class="grayscale">
+      <img alt="Yamen Al Kayal" src="yan.png" title="contrast" class="contrast">
+      <img alt="Yamen Al Kayal" src="yan.png" title="brightness" class="brightness">
+      <img alt="Yamen Al Kayal" src="yan.png" title="blur" class="blur">
+      <img alt="Yamen Al Kayal" src="yan.png" title="invert" class="invert">
+      <img alt="Yamen Al Kayal" src="yan.png" title="sepia" class="sepia">
+      <img alt="Yamen Al Kayal" src="yan.png" title="huerotate" class="huerotate">
+      <img alt="Yamen Al Kayal" src="yan.png" title="opacity" class="rss opacity"-->
+
+      <div class="st">
+        <h1 class="text">Yamen Al Kayal</h1>
+        <p class="text"><em>A Web & App Developer</em></p>
+        <p class="text">Lorem ipsum dolor sit amet, est ridens utamur mentitum at. Dicat sonet sententiae vix ea, atqui aliquip euripidis pro ea, duo viderer invenire definiebas te. Ius cu decore postea, ad inermis recusabo mel. Alienum fierent inciderint cu sit. Mel ad hinc eligendi. At nam albucius scribentur, enim feugiat comprehensam nam in.</p>
+      </div>
         <hr size="3" >
-        <h2>Educations</h2>
-        <h3>Uneiversity</h3>
+      <div class="nd">
+        <h2  class="text">Educations</h2>
+        <h3 class="text">Uneiversity</h3>
         <ul>
-            <li>Institute of Computer Engineering University of Damascus</li>
+            <li class="text">Institute of Computer Engineering University of Damascus</li>
         </ul>
-        <h3>Courses</h3>
+        <h3 class="text">Courses</h3>
         <ol>
-            <li>MCSA Newhorizon in Damascus</li>
-            <li>HTML CSS JAVAScript - Udemy (<strong><em><a  href="CCA-Certificate-HTML Level 1.pdf">CCA</a></em></strong>)</li>
-            <li>Python Udemy</li>
-            <li>MAchine Learning Michigan University - Online</li>
-            <li>HTML CSS Java Script - London University - Online</li>
-            <li>Server-Side Development NodeJs - MongoDB - Hong Kong University - Online</li>
-            <li>Ubuntu Web Development Setup Online <a href="http://www.ude.my/uc-3aop35df">Udemy</a></li>
+            <li class="text">MCSA Newhorizon in Damascus</li>
+            <li class="text">HTML CSS JAVAScript - Udemy (<strong><em><a  href="CCA-Certificate-HTML Level 1.pdf">CCA</a></em></strong>)</li>
+            <li class="text">Python Udemy</li>
+            <li class="text">MAchine Learning Michigan University - Online</li>
+            <li class="text">HTML CSS Java Script - London University - Online</li>
+            <li class="text">Server-Side Development NodeJs - MongoDB - Hong Kong University - Online</li>
+            <li class="text">Ubuntu Web Development Setup Online <a href="http://www.ude.my/uc-3aop35df">Udemy</a></li>
         </ol>
-        <h3>Projects</h3>
+        <h3 class="text">Projects</h3>
         <ul>
-            <li><a href="http://www.400-sy.com">400</a></li>
+            <li class="text"><a href="http://www.400-sy.com">400</a></li>
         </ul>
-        <p><a href="http://find.yamen.software">find me</a></p>
+        <p class="text"><a href="http://find.yamen.software">find me</a></p>
+      </div>
     </body>
 </html>
